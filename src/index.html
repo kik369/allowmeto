@@ -10,58 +10,319 @@
         <title>AllowMeTo - Virtual assistance</title>
     </head>
     <body>
-        <div class="uk-section uk-section-primary uk-padding-remove-vertical">
+        <!-- navbar -->
+        <div
+            class="uk-section uk-section-medium uk-section-primary uk-padding uk-padding-remove-left uk-padding-remove-right"
+        >
+            <nav
+                class="uk-navbar-container uk-navbar-transparent uk-margin-large-left uk-margin-large-right"
+                uk-navbar="delay-hide: 100"
+            >
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                        <a class="uk-navbar-item uk-logo" href="#"
+                            ><img
+                                data-src="img/website_logo_solid_background.png"
+                                width="150"
+                                alt=""
+                                uk-img
+                        /></a>
+                    </ul>
+                </div>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a href="https://www.instagram.com/_allowmeto/">
+                                <span
+                                    class="uk-icon uk-margin-small-right"
+                                    uk-icon="icon: instagram"
+                                ></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/allowmeto">
+                                <span
+                                    class="uk-icon uk-margin-small-right"
+                                    uk-icon="icon: linkedin"
+                                ></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">VA Services</a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="#">Business Virtual Assistant</a></li>
+                                    <li><a href="#">Private Virtual Assistant</a></li>
+                                </ul>
+                            </div>
+                        </li>
 
-                <nav class="uk-navbar-container uk-navbar-transparent uk-margin-large-left uk-margin-large-right" uk-navbar>
-                    <div class="uk-navbar-left">
-                        <ul class="uk-navbar-nav">
-                            <a class="uk-navbar-item uk-logo" href="#"><img data-src="img/website_logo_solid_background.png" alt="" uk-img></a>
-                            
-                        </ul>
-                    </div>
-                    <div class="uk-navbar-right">
-                        <ul class="uk-navbar-nav">
-                            <li><a href="">VA Services</a></li>
-                            <li><a href="">Our Values & Vision</a></li>
-                            <li><a href="">Blog</a></li>
-                            <li><a href="">FAQ's</a></li>
-                            <li><a href="">Contact</a></li>
-                            <button class="uk-button uk-button-danger">Danger</button>
-                        </ul>
-                    </div>
-                </nav>
-
+                        <li><a href="">Our Values & Vision</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">FAQ's</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li>
+                            <button class="uk-button uk-button-danger uk-position-center-right">
+                                Get Started
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
+        <!-- navbar -->
 
-        <h1>hi</h1>
-
-        <a href="#">this is a link</a>
-
-        <div class="uk-child-width-1-2@s uk-text-center" uk-grid>
-            <div>
-                <div class="uk-background-default uk-padding uk-panel">
-                    <p class="uk-h4">Default</p>
-                    <a href="#">this is a link</a>
+        <!-- cover -->
+        <div class="uk-cover-container" uk-height-viewport="offset-top: true">
+            <img src="/src/img/cover-bg.png" alt="" uk-cover />
+            <div class="uk-position-center-left uk-overlay uk-margin-xlarge-left uk-light">
+                <div uk-grid>
+                    <div class="uk-width-4-6">
+                        <h1 class="uk-heading-medium">Remote Virtual Assistance</h1>
+                    </div>
+                    <div class="uk-width-1-2">
+                        <p class="uk-text-lead">
+                            We provide friendly and effective support for small businesses &
+                            individuals to achieve more with remote virtual assistance and
+                            accountancy.
+                        </p>
+                        <button class="uk-button uk-button-danger">Learn More</button>
+                    </div>
                 </div>
             </div>
-            <div>
-                <div class="uk-background-muted uk-padding uk-panel">
-                    <p class="uk-h4">Muted</p>
-                    <a href="#">this is a link</a>
-                </div>
-            </div>
-            <div>
-                <div class="uk-background-primary uk-light uk-padding uk-panel">
-                    <p class="uk-h4">Primary</p>
-                    <a href="#">this is a link</a>
-                </div>
-            </div>
-            <div>
-                <div class="uk-background-secondary uk-light uk-padding uk-panel">
-                    <p class="uk-h4">Secondary</p>
-                    <a href="#">this is a link</a>
-                </div>
-            </div>
+        </div>
+        <!-- cover -->
 
+        <!-- section image left -->
+        <div class="uk-section uk-section-large">
+            <div class="uk-container uk-container-large">
+                <div class="uk-grid-large uk-flex uk-flex-middle" uk-grid>
+                    <div class="uk-width-1-2">
+                        <img data-src="/src/img/girl.jpg" alt="" uk-img />
+                    </div>
+                    <div class="uk-width-1-2">
+                        <p class="uk-heading-small">
+                            We exist to make life easier for busy & hardworking people like yourself
+                        </p>
+                        <p>
+                            One of the most challenging things about running a business is having to
+                            wear many hats. Here at AllowMeTo, we have hats in Administration,
+                            Accountancy as well as other sectors.
+                        </p>
+                        <p>
+                            So, whilst you give your neck a rest, we can manage those vital tasks in
+                            the background, and you can get back to focusing on the forefront of
+                            your business.
+                        </p>
+                        <button class="uk-button uk-button-secondary">
+                            How to grow your Business
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section image left -->
+
+        <!-- section image right -->
+        <div class="uk-section uk-section-large">
+            <div class="uk-container uk-container-large">
+                <div class="uk-grid-large uk-flex uk-flex-middle" uk-grid>
+                    <div class="uk-width-1-2">
+                        <p class="uk-heading-small">Liberate Yourself</p>
+                        <p>
+                            We all have a tendency to take on more than we should but in doing so,
+                            we can sometimes neglect our relationship with ourselves. As your
+                            virtual assistant allow me to integrate into your working and personal
+                            life, giving you the time and headspace to focus on the things where you
+                            add most value.
+                        </p>
+                        <button class="uk-button uk-button-secondary">
+                            Virtual PA for Private Individuals
+                        </button>
+                    </div>
+                    <div class="uk-width-1-2">
+                        <img data-src="/src/img/man.jpg" alt="" uk-img />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section image right -->
+
+        <!-- section image left -->
+        <div class="uk-section uk-section-large">
+            <div class="uk-container uk-container-large">
+                <div class="uk-grid-large uk-flex uk-flex-middle" uk-grid>
+                    <div class="uk-width-1-2">
+                        <img data-src="/src/img/man2.jpg" alt="" uk-img />
+                    </div>
+                    <div class="uk-width-1-2">
+                        <p class="uk-heading-small">How Does it work?</p>
+                        <p>
+                            For any questions on our services you're welcome to contact us with any
+                            queries.
+                        </p>
+                        <p>
+                            SFor questions such as setting up and “how does it work?” please explore
+                            our Frequently Asked Question page in the meantime.
+                        </p>
+                        <button class="uk-button uk-button-secondary">FAQ's</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section image left -->
+
+        <!-- image bg -->
+        <div class="uk-cover-container">
+            <canvas height="700"></canvas>
+
+            <img src="/src/img/plant-bg.jpeg" alt="" uk-cover />
+
+            <div class="uk-position-center uk-overlay uk-overlay-default uk-padding-large">
+                <div class="uk-container uk-container-large">
+                    <div
+                        class="uk-flex uk-flex-left uk-child-width-2-3 uk-grid uk-grid-stack"
+                        uk-grid=""
+                    >
+                        <div class="uk-first-column">
+                            <p class="uk-heading-small uk-text-danger">
+                                There's Never Been a Time More Suited Than Now
+                            </p>
+                            <p class="uk-light uk-text-large">
+                                Having a virtual assistant has always been a great solution for
+                                small business to grow and for individuals to reclaim back their
+                                personal life, and with the world we live in now and the increase
+                                and suggestion of remote working; virtual assistants more practical
+                                than ever, and have been in the game of working remotely from the
+                                start.
+                            </p>
+                            <button class="uk-button uk-button-danger">
+                                Why you should consider a Virtual Assistant company
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- image bg -->
+
+        <!-- section image right -->
+        <div class="uk-section uk-section-large">
+            <div class="uk-container uk-container-large">
+                <div class="uk-grid-large uk-flex uk-flex-middle" uk-grid>
+                    <div class="uk-width-1-2">
+                        <p class="uk-heading-small">Businesses working together</p>
+                        <p>
+                            We realised that together we could help others live better and work
+                            easier.
+                        </p>
+                        <button class="uk-button uk-button-secondary">Our Story</button>
+                    </div>
+                    <div class="uk-width-1-2">
+                        <img data-src="/src/img/allow-mockup.png" alt="" uk-img />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section image right -->
+
+        <!-- image bg -->
+        <div class="uk-cover-container">
+            <canvas height="700"></canvas>
+
+            <img src="/src/img/phone.jpeg" alt="" uk-cover />
+
+            <div class="uk-position-center uk-overlay uk-overlay-default uk-padding-large">
+                <div class="uk-container uk-container-large">
+                    <div
+                        class="uk-flex uk-flex-left uk-child-width-2-3 uk-grid uk-grid-stack"
+                        uk-grid=""
+                    >
+                        <div class="uk-first-column uk-text-center">
+                            <p class="uk-heading-small uk-text-danger">
+                                Talk to us first and see if it's right for you
+                            </p>
+                            <p class="uk-light uk-text-large">
+                                There's no commitment, pressure, or obligation.
+                            </p>
+                            <button class="uk-button uk-button-danger">Let's Start</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- image bg -->
+
+        <!-- footer -->
+        <div class="uk-section uk-section-primary uk-section-large">
+            <div class="uk-container uk-container-large">
+                <div class="uk-text-center">
+                    <p class="uk-heading-small">Newsletter Sign-up</p>
+                    <p>
+                        Sign up with your email address to receive news and updates. Plus access to
+                        our new free giveaway every month.
+                    </p>
+                    <form action="">
+                        <fieldset class="uk-fieldset">
+                            <div class="uk-flex-center" uk-grid>
+                                <div class="uk-width-auto">
+                                    <input
+                                        class="uk-input uk-form-width-medium"
+                                        type="text"
+                                        placeholder="First Name"
+                                    />
+                                </div>
+                                <div class="uk-width-auto">
+                                    <input
+                                        class="uk-input uk-form-width-medium"
+                                        type="text"
+                                        placeholder="Last Name"
+                                    />
+                                </div>
+                                <div class="uk-width-auto">
+                                    <input
+                                        class="uk-input uk-form-width-medium"
+                                        type="email"
+                                        placeholder="Email"
+                                    />
+                                </div>
+                                <div class="uk-width-auto">
+                                    <button class="uk-button uk-button-danger">Sign Up</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <p class="uk-text-meta">We respect your privacy.</p>
+                </div>
+                <hr />
+                <div class="uk-margin-large-top" uk-grid>
+                    <div class="uk-width-auto uk-text-left">
+                        <p class="uk-heading-small uk-text-danger">
+                            <span class="uk-text-bold">AllowMeTo</span> help you with that.
+                        </p>
+                        <p><a href="">Privacy Policy</a></p>
+                        <p><a href="">Terms & Conditions</a></p>
+                        <p>Company Number: 12570145</p>
+                    </div>
+                    <div class="uk-width-expand"></div>
+                    <div class="uk-width-auto">
+                        <img data-src="/src/img/edu-hub.png" alt="" uk-img />
+                        <img
+                            class="uk-margin-left"
+                            data-src="/src/img/policyBee.png"
+                            alt=""
+                            uk-img
+                        />
+                        <img
+                            class="uk-margin-left"
+                            data-src="/src/img/va-approved.png"
+                            alt=""
+                            uk-img
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
     </body>
 </html>
